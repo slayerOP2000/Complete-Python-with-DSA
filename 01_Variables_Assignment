@@ -5,3 +5,10 @@ Variables are containers for storing data values.
 ```python
 x = 10
 name = "Anurag"
+
+Rules for Variable Names
+Must start with a letter or underscore
+
+Cannot start with a number
+
+Case-sensitive
