@@ -12,3 +12,51 @@ Must start with a letter or underscore
 Cannot start with a number
 
 Case-sensitive
+
+Which of the following identifier names are invalid and why? 
+Serial_no 
+1st_Roo 
+Hundred 
+Total_Mark 
+total-Mark 
+Total Marks 
+Tru 
+_Percentag 
+
+Answer: 1st_Roo, Total Marks, total-Mark are invalid as we cannot have namespace in between, we cannot use integer in starting the variables, we cannot use any special characters other than underscore
+
+Write the corresponding Python assignment statements: 
+Assign 10 to variable length and 20 to variable breadth
+val_length = 10
+val_breadth = 20
+print(f"The lenth is {val_length} and the breadth is {val_breadth}")
+
+Assign the average of values of variables length and breadth to a variable sum 
+val_length = 10
+val_breadth = 20
+sum = (val_length + val_breadth)/2
+print(f"The average is {sum}")
+
+Assign a list containing strings 'Paper', 'Gel Pen', and 'Eraser' to a variable stationery 
+
+string_stationery = ['Paper', 'Gel Pen', 'Eraser']
+print(f"Stationery list is as follow {string_stationery}")
+
+Assign the strings 'Mohandas', 'Karamchand', and 'Gandhi' to variables first, middle and last
+first = "Mohandas"
+middle = "Karamchand"
+last = "Gandhi"
+print(first)
+print(middle)
+print(last)
+Assign the concatenated value of string variables first, middle, and last to variable fullname. 
+first = "Mohandas"
+middle = "Karamchand"
+last = "Gandhi"
+
+fullname = first + middle + last
+
+if spacing is required:
+fullname = first + " " + middle + " " + last
+print(fullname)
+print(fullname)
