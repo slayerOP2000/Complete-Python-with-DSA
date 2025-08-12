@@ -1,6 +1,9 @@
 ## Variables in Python
 Variables are containers for storing data values.
 
+##Summary of these assignment
+We will be learning in deep how to name vartiable some code how we can add them delete or add in end for this we will be using insert(), remove(), 
+
 ### Syntax
 ```python
 x = 10
@@ -60,3 +63,34 @@ if spacing is required:
 fullname = first + " " + middle + " " + last
 print(fullname)
 print(fullname)
+
+
+name = ["Mohan", "dash", "karam", "chandra","gandhi","Bapu"]  do the following operations in this list; 
+add an element "freedom_fighter" in this list at the 0th index 
+find the output of the following ,and explain how? 
+
+name = ["Mohan", "dash", "karam", "chandra", "gandhi","Bapu"]
+name.insert(0,"freedom_fighter")
+print(name)
+
+we can insert by using insert() function in python we can do it by mentioning the index -> (0,-----)
+
+add two more elements in the name ["NetaJi","Bose"] at the end of the list
+-> This can be done using append() function it's a inbuilt function in pyton which will move it to the end.
+->name = ["Mohan", "dash", "karam", "chandra", "gandhi","Bapu"]
+->name.append('Netaji')
+->name.append('Bose')
+ 
+what will be the value of temp:  
+name = ["Bapuji", "dash", "karam", "chandra","gandi","Mohan"]  temp=name[-1]  name[-1]=name[0]  name[0]=temp  print(name) 
+-> Let's go step wise
+-> name = ["Bapuji", "dash", "karam", "chandra","gandi","Mohan"]
+-> temp = name[-1] #temp is last element that is mohan
+-> name[-1] = name[0] last elemet change to bapuji
+-> name[0] = temp #temp = mohan
+
+Output: ["Mohan", "Dash", "Karam", " Chandra", "Gandhi", "Bapuji"]
+
+------------------------------------------------------------------------End Of Variables Assignment-------------------------------------------------------------------------
+
+
