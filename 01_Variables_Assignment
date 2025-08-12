@@ -1,0 +1,7 @@
+## Variables in Python
+Variables are containers for storing data values.
+
+### Syntax
+```python
+x = 10
+name = "Anurag"
