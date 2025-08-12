@@ -32,4 +32,3 @@ A personal learning journey covering **Python fundamentals** + **Data Structures
 
 ## 📬 Connect with Me
 [![LinkedIn]: https://www.linkedin.com/in/anurag-saxena-0942211b8/
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)] 
