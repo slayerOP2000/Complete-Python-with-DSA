@@ -4,11 +4,11 @@ A personal learning journey covering **Python fundamentals** + **Data Structures
 
 ## 📂 Topics Covered
 1. Variables ✅
-2. Data Types
-3. Operators
+2. Data Types ✅
+3. Operators ✅
 4. Control Flow
 5. Functions
-6. Lists, Tuples, Sets, Dictionaries
+6. Lists, Tuples, Sets, Dictionaries 
 7. Strings
 8. File Handling
 9. Object-Oriented Programming
