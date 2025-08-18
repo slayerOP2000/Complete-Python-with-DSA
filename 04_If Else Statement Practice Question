@@ -1,0 +1,153 @@
+🐍 Python Practice – If-Else Statements
+
+This section contains basic to intermediate if-else problems with their solutions.
+A great way to strengthen your Python fundamentals 🚀
+
+✅ 1. Check Even or Odd
+num = 7
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+# Output: Odd
+
+✅ 2. Age Category
+age = 25
+
+if age < 18:
+    print("Minor")
+elif age < 60:
+    print("Adult")
+else:
+    print("Senior Citizen")
+# Output: Adult
+
+✅ 3. Positive, Negative or Zero
+num = -5
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+# Output: Negative
+
+✅ 4. Divisible by 5
+num = 20
+
+if num % 5 == 0:
+    print("Divisible by 5")
+else:
+    print("Not divisible by 5")
+# Output: Divisible by 5
+
+✅ 5. Greater Number
+a, b = 12, 8
+
+if a > b:
+    print("Greater number is:", a)
+else:
+    print("Greater number is:", b)
+# Output: Greater number is: 12
+
+✅ 6. Leap Year Check
+year = 2024
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+# Output: Leap Year
+
+✅ 7. Grading System
+marks = 82
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+# Output: Grade B
+
+✅ 8. Number in Range
+num = 55
+
+if 1 <= num <= 100:
+    print("Number is in range 1 to 100")
+else:
+    print("Out of range")
+# Output: Number is in range 1 to 100
+
+✅ 9. Largest of Three
+a, b, c = 45, 72, 19
+
+if a >= b and a >= c:
+    print("Largest:", a)
+elif b >= a and b >= c:
+    print("Largest:", b)
+else:
+    print("Largest:", c)
+# Output: Largest: 72
+
+✅ 10. Voting Eligibility
+age = 16
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+# Output: Not eligible to vote
+
+✅ 11. Password Check
+password = "Python123"
+
+if password == "Python123":
+    print("Access Granted")
+else:
+    print("Access Denied")
+# Output: Access Granted
+
+✅ 12. Divisible by 3 and 7
+num = 21
+
+if num % 3 == 0 and num % 7 == 0:
+    print("Divisible by both 3 and 7")
+else:
+    print("Not divisible by both")
+# Output: Divisible by both 3 and 7
+
+✅ 13. Temperature Category
+temp = 30
+
+if temp < 0:
+    print("Freezing")
+elif temp <= 20:
+    print("Cold")
+elif temp <= 35:
+    print("Warm")
+else:
+    print("Hot")
+# Output: Warm
+
+✅ 14. Vowel or Consonant
+char = "e"
+
+if char.lower() in "aeiou":
+    print("Vowel")
+else:
+    print("Consonant")
+# Output: Vowel
+
+✅ 15. Two-Digit Number
+num = 45
+
+if 10 <= num <= 99:
+    print("Two-digit number")
+else:
+    print("Not a two-digit number")
+# Output: Two-digit number
