@@ -1,0 +1,77 @@
+🚀 Python Basics – Operators & Number System Conversion
+🔹 1. Operators in Python
+
+Python provides different types of operators:
+
+➡️ Arithmetic Operators
+
+Used for basic mathematical operations.
+a = 10
+b = 3
+
+print(a + b)   # Addition → 13
+print(a - b)   # Subtraction → 7
+print(a * b)   # Multiplication → 30
+print(a / b)   # Division → 3.333...
+print(a % b)   # Modulus (remainder) → 1
+print(a ** b)  # Exponentiation → 1000
+print(a // b)  # Floor Division → 3
+
+➡️ Comparison (Relational) Operators
+
+Used to compare values (returns True/False).
+x, y = 5, 10
+
+print(x == y)  # Equal → False
+print(x != y)  # Not equal → True
+print(x > y)   # Greater than → False
+print(x < y)   # Less than → True
+print(x >= y)  # Greater or equal → False
+print(x <= y)  # Less or equal → True
+
+➡️ Logical Operators
+
+Used with conditional statements.
+p, q = True, False
+
+print(p and q)  # AND → False
+print(p or q)   # OR → True
+print(not p)    # NOT → False
+
+➡️ Assignment Operators
+
+Used to assign values.
+num = 10
+num += 5   # num = num + 5 → 15
+num -= 3   # num = num - 3 → 12
+num *= 2   # num = num * 2 → 24
+num /= 4   # num = num / 4 → 6.0
+
+➡️ Bitwise Operators
+
+Work on bits (0 and 1).
+a = 6   # binary: 110
+b = 3   # binary: 011
+
+print(a & b)  # AND → 2 (010)
+print(a | b)  # OR  → 7 (111)
+print(a ^ b)  # XOR → 5 (101)
+print(~a)     # NOT → -7 (inverts bits)
+print(a << 1) # Left Shift → 12 (1100)
+print(a >> 1) # Right Shift → 3 (011)
+
+🔹 2. Number System Conversion
+➡️ Decimal → Binary
+num = 13
+binary = bin(num)[2:]  # remove '0b'
+print(binary)  # 1101
+
+➡️ Binary → Decimal
+binary_str = "1101"
+decimal = int(binary_str, 2)
+print(decimal)  # 13
+
+If stored as list of bits:
+bits_list = [1, 1, 0, 1]
+decimal = int("".join(str(bit) for bit in bits_list), 2)
+print(decimal)  # 13
