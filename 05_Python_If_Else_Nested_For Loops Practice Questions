@@ -1,0 +1,173 @@
+🔹 PART 1: If-Else & Nested If-Else
+
+💡 Decision-making logic
+
+Even or Odd
+
+Largest of Three Numbers
+
+Leap Year Checker
+
+Grade Calculator (A–F)
+
+Character Type Checker (letter, digit, symbol)
+
+Login System with username & password
+
+Simple Calculator (+, -, *, /)
+
+Triangle Type Checker
+
+Marks & Attendance Result
+
+Day of the Week by number (1–7)
+
+🔹 PART 2: For Loops + range()
+
+💡 Counting and iterating
+
+Print Numbers 1 to 10
+
+Sum of First 100 Numbers
+
+Print Even Numbers (1–50)
+
+Multiplication Table of a Number
+
+Squares of Numbers (1–10)
+
+Numbers Divisible by 3 but Not 5 (1–100)
+
+Factorial of a Number
+
+Countdown from 20 to 1
+
+Print Each Character in a String
+
+Sum of Odd Numbers (1–50)
+
+🔹 PART 3: break and continue
+
+💡 Controlling loop flow
+
+Break the loop when a number divisible by 13 is found (1–100)
+
+Continue when encountering even numbers — print only odd (1–30)
+
+Print first number divisible by 7 and 11 in (100–200)
+
+Skip vowels in a given string
+
+Sum inputs until total exceeds 200 using a loop and break
+
+🔹 PART 4: Mixed – For Loop + If Conditions
+
+💡 Combining logic and iteration
+
+Count Vowels and Consonants in a String
+
+Check if a Number is Prime
+
+Palindrome Number Checker (for 3-digit numbers)
+
+Sum of Digits of a Number
+
+FizzBuzz from 1 to 50
+
+Check if All Digits Are Even
+
+Find Max Digit in a Number
+
+Reverse a String Without Built-ins
+
+Print All Prime Numbers (1–100)
+
+Find GCD (Greatest Common Divisor) of Two Numbers
+
+🔹 PART 5: Nested Loops
+
+💡 Loop inside loop — patterns, grids, pairs
+
+Print a Rectangle Pattern
+
+*****
+*****
+*****
+
+
+Number Pyramid
+
+1
+12
+123
+1234
+
+
+Right-Angled Star Triangle
+
+*
+**
+***
+****
+
+
+Multiplication Table from 1 to 5
+
+1 x 1 = 1  
+1 x 2 = 2  
+...
+
+
+All Pairs (i, j) from 1 to 3
+→ Output: (1,1), (1,2), ..., (3,3)
+
+Print a 2D Matrix
+
+matrix = [
+  [1, 2, 3],
+  [4, 5, 6]
+]
+
+
+Alphabet Triangle
+
+A  
+AB  
+ABC  
+
+
+Chessboard Pattern (B/W alternating)
+
+B W B W  
+W B W B  
+
+
+Print Only Prime Numbers in a Grid (1–50)
+→ Use nested for and check each number.
+
+Multiplication Grid (5x5)
+
+1  2  3  4  5  
+2  4  6  8 10  
+3  6  9 12 15  
+...
+
+
+Pascal’s Triangle (first 5 rows)
+
+Print All Unique Pairs from a List
+→ Given list: [1, 2, 3] → (1,2), (1,3), (2,3)
+
+Pattern with Numbers and Stars
+
+1  
+1 *  
+1 * 2  
+1 * 2 * 3
+
+
+Count All Vowels in Every Word from a List
+→ Input: ["apple", "banana", "grape"]
+
+Print Multiples of Numbers from Two Lists
+→ List1: [2, 3], List2: [1, 2, 3, 4, 5] → print multiples
